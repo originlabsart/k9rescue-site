@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>K9 Rescue Community · One block at a time</title>
+<meta name="description" content="An independent project created and operated by Origin Labs, raising funds for K9 Rescue as charitable beneficiary. Dispatches from the frontline of the stray dog crisis in Ukraine and Eastern Europe, with a share of creator rewards paid straight to K9 Rescue's own Solana wallet, live and in public.">
+<link rel="canonical" href="https://k9rescuecommunity.com/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://k9rescuecommunity.com/">
+<meta property="og:title" content="K9 Rescue Community · One block at a time">
+<meta property="og:description" content="Solana makes a block every 0.4 seconds. Somewhere, a stray dog is killed every 1.6. An independent coin by Origin Labs, raising funds for K9 Rescue.">
+<meta property="og:site_name" content="K9 Rescue Community Coin">
+<meta property="og:image" content="https://k9rescuecommunity.com/assets/share-k9rescue-v7.jpg">
+<meta property="og:image:secure_url" content="https://k9rescuecommunity.com/assets/share-k9rescue-v7.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1800">
+<meta property="og:image:height" content="945">
+<meta property="og:image:alt" content="Saving dogs, one block at a time. K9 Rescue Community: live counters of Solana blocks and stray dogs, over a rescued dog in the snow.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@k9_rescue">
+<meta name="twitter:image" content="https://k9rescuecommunity.com/assets/share-k9rescue-v7.jpg">
+<meta name="theme-color" content="#0B0E14">
+<link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" href="assets/brand/favicon-32.png?v=3" sizes="32x32" type="image/png">
+<link rel="icon" href="assets/brand/favicon-48.png?v=3" sizes="48x48" type="image/png">
+<link rel="icon" href="assets/brand/favicon-192.png?v=3" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png?v=3">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..500&family=IBM+Plex+Mono:wght@400;500;600&family=Big+Shoulders+Stencil+Display:wght@700;900&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/img/hero-snow-dog.webp">
+<link rel="stylesheet" href="assets/style.css?v=4">
+<script src="config.js"></script>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="paw" viewBox="0 0 100 100"><ellipse cx="50" cy="66" rx="24" ry="20"/><ellipse cx="22" cy="40" rx="10" ry="13" transform="rotate(-18 22 40)"/><ellipse cx="40" cy="24" rx="10" ry="13" transform="rotate(-6 40 24)"/><ellipse cx="60" cy="24" rx="10" ry="13" transform="rotate(6 60 24)"/><ellipse cx="78" cy="40" rx="10" ry="13" transform="rotate(18 78 40)"/></symbol>
+  <symbol id="sol" viewBox="0 0 398 312"><path d="M64.6 237.9a13 13 0 0 1 9.2-3.8h317.4c5.8 0 8.7 7 4.6 11.1l-62.7 62.7a13 13 0 0 1-9.2 3.8H6.5c-5.8 0-8.7-7-4.6-11.1l62.7-62.7zM64.6 3.8A13.4 13.4 0 0 1 73.8 0h317.4c5.8 0 8.7 7 4.6 11.1l-62.7 62.7a13 13 0 0 1-9.2 3.8H6.5c-5.8 0-8.7-7-4.6-11.1L64.6 3.8zM333.1 120.1a13 13 0 0 0-9.2-3.8H6.5c-5.8 0-8.7 7-4.6 11.1l62.7 62.7a13 13 0 0 0 9.2 3.8h317.4c5.8 0 8.7-7 4.6-11.1l-62.7-62.7z"/></symbol>
+  <symbol id="x" viewBox="0 0 24 24"><path d="M18.9 1.2h3.7l-8 9.2 9.4 12.4h-7.4l-5.8-7.6-6.6 7.6H.5l8.6-9.8L0 1.2h7.6l5.2 6.9 6.1-6.9zm-1.3 19.4h2L6.5 3.3H4.3l13.3 17.3z"/></symbol>
+  <symbol id="tg" viewBox="0 0 24 24"><path d="M21.9 3.3 18.6 19c-.2 1.1-.9 1.4-1.8.9l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.1 9.2-8.3c.4-.4-.1-.6-.6-.2L6 12.6l-4.9-1.5c-1.1-.3-1.1-1.1.2-1.6L20.5 2c.9-.3 1.7.2 1.4 1.3z"/></symbol>
+  <symbol id="dc" viewBox="0 0 24 24"><path d="M20.3 4.4A19.6 19.6 0 0 0 15.4 3l-.6 1.3a18.2 18.2 0 0 0-5.6 0L8.6 3a19.5 19.5 0 0 0-4.9 1.5C.6 9.1-.3 13.6.2 18a19.7 19.7 0 0 0 6 3l1.3-2.1a12.7 12.7 0 0 1-2-1l.5-.4a14 14 0 0 0 12 0l.5.4c-.6.4-1.3.7-2 1l1.3 2.1a19.6 19.6 0 0 0 6-3c.5-5.1-.9-9.6-3.5-13.6zM8 15.3c-1.2 0-2.2-1.1-2.2-2.4s1-2.4 2.2-2.4 2.2 1.1 2.2 2.4-1 2.4-2.2 2.4zm8 0c-1.2 0-2.2-1.1-2.2-2.4s1-2.4 2.2-2.4 2.2 1.1 2.2 2.4-1 2.4-2.2 2.4z"/></symbol>
+</svg>
+
+<canvas class="snow" data-snow-canvas aria-hidden="true"></canvas>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="bar" data-bar>
+  <a class="bar-brand" href="#top" aria-label="K9 Rescue Community, back to top">
+    <img src="assets/brand/k9-rescue-community-logo-white.png" alt="K9 Rescue Community" width="626" height="643">
+  </a>
+  <p class="bar-ch mono" aria-hidden="true"><span data-ch-num>00</span> <i></i> <span data-ch-name>Dispatch</span></p>
+  <div class="bar-right">
+    <a class="bar-buy mono" data-buy href="#chain">Launching soon</a>
+    <a class="bar-give" href="#give"><svg aria-hidden="true"><use href="#sol"/></svg><span>Send a supply drop</span></a>
+  </div>
+  <i class="bar-progress" data-progress aria-hidden="true"></i>
+</header>
+
+<nav class="rail" aria-label="Chapters">
+  <a href="#road" data-rail="I"><b>I</b><span>The road east</span></a>
+  <a href="#front" data-rail="II"><b>II</b><span>The front</span></a>
+  <a href="#math" data-rail="III"><b>III</b><span>The math of mercy</span></a>
+  <a href="#chain" data-rail="IV"><b>IV</b><span>The chain</span></a>
+  <a href="#give" data-rail="V"><b>V</b><span>Supply drop</span></a>
+</nav>
+
+<main id="top">
+
+<!-- ============================================================ 00 OPENING -->
+<section class="open" data-ch="00" data-chname="Dispatch" data-snow="1">
+  <div class="open-photo" aria-hidden="true"><img data-speed="0.25" src="assets/img/hero-snow-dog.webp" alt="" width="2172" height="724"></div>
+  <div class="open-shade" aria-hidden="true"></div>
+
+  <div class="open-top mono">
+    <span>Dispatch 001</span>
+    <span>Ukraine &amp; Eastern Europe</span>
+    <span class="hide-s">An independent project by Origin Labs</span>
+    <span class="hide-s">K9 Rescue: charitable beneficiary</span>
+  </div>
+
+  <h1 class="open-h">
+    <span class="l1">Saving dogs,</span>
+    <span class="l2">one <em>block</em></span>
+    <span class="l3">at a time.</span>
+  </h1>
+
+  <div class="open-count">
+    <div class="oc">
+      <p class="mono oc-k"><span class="live"></span> Solana blocks since you arrived</p>
+      <p class="oc-v" data-blocks>0</p>
+    </div>
+    <div class="oc oc-red">
+      <p class="mono oc-k"><span class="live red"></span> Stray dogs killed worldwide, same time</p>
+      <p class="oc-v" data-killed>0</p>
+    </div>
+    <p class="oc-note">Solana makes a block every 0.4 seconds. Somewhere, a stray dog is killed every 1.6. A share of the creator rewards from every trade of this independent coin, created and operated by Origin Labs, goes straight to K9 Rescue's own wallet. <b>Let's make the blocks count.</b></p>
+  </div>
+
+  <a class="open-down mono" href="#prologue">Read the dispatches <span aria-hidden="true">↓</span></a>
+</section>
+
+<!-- ============================================================ PROLOGUE (words light up as you scroll) -->
+<section class="prologue" id="prologue" data-ch="00" data-chname="Prologue">
+  <p class="pro-text" data-litwords>Twenty million stray dogs are killed every year. Fifty million live on the streets of Central and Eastern Europe alone, poisoned, beaten, frozen and starved, seen as vermin with little or no protection. K9 Rescue is a small, volunteer-led British charity that pays no salaries and goes where it's worst. This independent coin was created to raise funds for that work. The dispatches below retell it from K9 Rescue's own published reports.</p>
+  <p class="pro-src mono">Figures: K9 Rescue, k9-rescue.org</p>
+</section>
+
+<!-- ============================================================ I THE ROAD EAST (pinned, scrolls sideways) -->
+<section class="road" id="road" data-ch="I" data-chname="The road east" data-hscroll>
+  <div class="road-pin">
+    <div class="road-head">
+      <p class="mono ch-tag">Chapter I</p>
+      <h2>The road <em>east.</em></h2>
+      <div class="route" aria-hidden="true"><i data-route></i></div>
+    </div>
+    <div class="road-track" data-track>
+      <article class="stop stop-intro">
+        <p class="stop-lede">Twenty years, five countries, one idea: go to the dogs nobody else will reach.</p>
+        <p class="mono stop-hint">Keep scrolling <span aria-hidden="true">→</span></p>
+      </article>
+      <article class="stop">
+        <p class="stop-year">2005</p>
+        <figure class="plate"><img src="assets/img/bulgaria-pups.webp" alt="A street dog and her puppies in Bulgaria" width="1600" height="1200" loading="lazy"></figure>
+        <p class="mono stop-place">Bulgaria · 42.70°N 23.32°E</p>
+        <h3>It starts on a street corner.</h3>
+        <p>In Bulgaria, the people who would go on to found K9 Rescue can't look away. They feed the street dogs, treat them, spay them, and for eight years rescue the sick and injured and find them homes.</p>
+      </article>
+      <article class="stop">
+        <p class="stop-year">2013</p>
+        <figure class="plate tall"><img src="assets/img/wales-sofa.webp" alt="Two rescued dogs asleep on a sofa" width="1200" height="1197" loading="lazy"></figure>
+        <p class="mono stop-place">United Kingdom</p>
+        <h3>A charity, not a hobby.</h3>
+        <p>Back in the UK, K9 Rescue becomes a registered charity. In 2017 it becomes the first animal charity in the UK to accept Bitcoin directly.</p>
+      </article>
+      <article class="stop">
+        <p class="stop-year">2018</p>
+        <figure class="plate"><img src="assets/img/sanctuary-hills.webp" alt="Two rescued dogs looking out over the hills" width="1800" height="1080" loading="lazy"></figure>
+        <p class="mono stop-place">West Wales · 52.0°N 4.5°W</p>
+        <h3>No kennels. No kill.</h3>
+        <p>A farm sanctuary where traumatised street dogs decompress at their own pace. For some, a tossed treat feels like a missile. It can take years before they accept a touch.</p>
+      </article>
+      <article class="stop">
+        <p class="stop-year">Winter</p>
+        <figure class="plate tall"><img src="assets/img/luna-pups.webp" alt="A mother dog with her pups in North Macedonia" width="800" height="1067" loading="lazy"><span class="mono credit">Photo: Mirjana Mishevska</span></figure>
+        <p class="mono stop-place">North Macedonia · 41.99°N 21.43°E</p>
+        <h3>A meal a day for a stray.</h3>
+        <p>Street feeding stations that keep dogs and cats alive through winter, and plans for the Freedom Shelter: cage-free, with its own vet care, in a country where real shelters barely exist.</p>
+      </article>
+      <article class="stop">
+        <p class="stop-year">2022</p>
+        <figure class="plate"><img src="assets/img/snow-feeding.webp" alt="Street dogs in the snow at a feeding point in Ukraine" width="1400" height="876" loading="lazy"><span class="mono credit">Photo: Inessa Safonenko</span></figure>
+        <p class="mono stop-place">Odesa · Kharkiv, Ukraine</p>
+        <h3>Then the war came.</h3>
+        <p>Food, medicine and vet supplies bought in Kyiv and Odesa, animals evacuated from the conflict zone, feeding programmes in frontline cities. “We gave away our very last bag of dry food and cooked about 70 litres of porridge.”</p>
+      </article>
+      <article class="stop">
+        <p class="stop-year">2025</p>
+        <figure class="plate tall"><img src="assets/img/frontline-rubble.webp" alt="A street dog standing on the rubble of a destroyed building" width="1600" height="800" loading="lazy"><span class="mono credit">Photo: Affordable Sterilization</span></figure>
+        <p class="mono stop-place">Kramatorsk · 48.72°N 37.56°E</p>
+        <h3>Ten miles from the fighting.</h3>
+        <p>With state spay schemes suspended by the war, dogs breed unchecked. K9 Rescue decides to go to the front.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ II THE FRONT (field log) -->
+<section class="front" id="front" data-ch="II" data-chname="The front" data-snow="0.55">
+  <div class="front-grid">
+    <aside class="front-pin">
+      <p class="mono ch-tag">Chapter II</p>
+      <h2>Field log, <em>Kramatorsk.</em></h2>
+      <div class="dots" data-dots aria-hidden="true"></div>
+      <p class="front-n"><b data-front-count>0</b><span class="mono">/ 516 female dogs spayed</span></p>
+      <p class="mono front-phase" data-front-label>Each square is one dog</p>
+    </aside>
+    <div class="log">
+      <article class="entry" data-fstep="115" data-flabel="Sep 2025 · the pilot">
+        <p class="mono entry-t"><span>Log 01</span><span>Sep 2025</span><span>Pilot</span></p>
+        <figure class="entry-img"><img src="assets/img/kramatorsk-vets-crop.webp" alt="Vets at work during the Kramatorsk sterilisation pilot" width="860" height="484" loading="lazy"><span class="mono credit">Photo: Affordable Sterilization</span></figure>
+        <h3>“Could it be done?”</h3>
+        <p>Vets are scarce. Families can't afford sterilisation. Thousands of dogs roam the streets and no large campaign has ever reached the city. K9 Rescue funds a pilot with the veterinary team Affordable Sterilization and local volunteers.</p>
+        <p class="entry-res mono">Result: 115 female dogs spayed. It works.</p>
+      </article>
+      <article class="entry" data-fstep="297" data-flabel="Jan 2026 · phase one">
+        <p class="mono entry-t"><span>Log 02</span><span>Jan 2026</span><span class="alert">Air raid alert</span></p>
+        <figure class="entry-img"><img src="assets/img/eric.webp" alt="A rescued street dog" width="1200" height="600" loading="lazy"><span class="mono credit">Photo: Affordable Sterilization</span></figure>
+        <h3>Snow underfoot. Sirens overhead.</h3>
+        <p>Five days of freezing cold, wailing air raid sirens and the ever-closing threat of drones. Yard dogs, the main source of unwanted litters, and strays too frightened to handle, sedated with humane darts.</p>
+        <p class="entry-res mono">Result: 134 owned + 48 free-roaming = 182 female dogs.</p>
+      </article>
+      <article class="entry" data-fstep="516" data-flabel="Spring 2026 · phase two">
+        <p class="mono entry-t"><span>Log 03</span><span>Spring 2026</span><span>Phase two</span></p>
+        <figure class="entry-img"><img src="assets/img/frontline-pups.webp" alt="Three young street dogs at a food bowl in Ukraine" width="1600" height="800" loading="lazy"><span class="mono credit">Photo: Affordable Sterilization</span></figure>
+        <h3>Sloviansk. Cherkas'ke. Back again.</h3>
+        <p>A four-day field mission ten miles from active fighting, with runs to shelled Sloviansk and the village of Cherkas'ke for families desperate for help.</p>
+        <p class="entry-res mono">Result: 143 owned + 76 free-roaming = 219 female dogs. Total: 516.</p>
+        <a class="arrow mono" href="https://k9-rescue.org/kramatorsk-sterilization/" target="_blank" rel="noopener">Read the full mission report ↗</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ III THE MATH OF MERCY (pinned canvas) -->
+<section class="math" id="math" data-ch="III" data-chname="The math of mercy" data-math>
+  <div class="math-pin">
+    <canvas class="math-canvas" data-math-canvas aria-hidden="true"></canvas>
+    <div class="math-ui">
+      <p class="mono ch-tag">Chapter III</p>
+      <h2>The math of <em>mercy.</em></h2>
+      <p class="math-lede">One unspayed female. 2.8 surviving pups a litter, two litters a year, and every pup grows up to do the same. Scroll to let the years pass.</p>
+      <div class="math-read" aria-live="polite">
+        <p class="mono math-year" data-math-year>Year 0</p>
+        <p class="math-n" data-math-n>1</p>
+        <p class="mono math-k" data-math-k>dog. Her.</p>
+      </div>
+      <div class="math-end" data-math-end>
+        <p>Spaying one dog doesn't save one life. It stops all of this before it starts.</p>
+        <button type="button" class="spay-btn mono" data-spay>Spay her</button>
+      </div>
+      <p class="mono math-src">Source: K9 Rescue, “Why spay or neuter?”</p>
+    </div>
+    <p class="math-scale mono" aria-hidden="true" data-math-scale>1 dot = 1 dog</p>
+  </div>
+</section>
+
+<!-- ============================================================ IV THE CHAIN -->
+<section class="chain" id="chain" data-ch="IV" data-chname="The chain">
+  <div class="wrap">
+    <div class="ch-head">
+      <p class="mono ch-tag">Chapter IV</p>
+      <h2>Every trade is a block. <em>Every block feeds a dog.</em></h2>
+    </div>
+
+    <ol class="blocks">
+      <li class="blk" data-reveal><span class="mono blk-n">#01</span><b>Trade</b><p>Anyone buys or sells $<span data-ticker>K9</span>, an independent coin created and operated by Origin Labs, with K9 Rescue as charitable beneficiary.</p></li>
+      <li class="blk" data-reveal><span class="mono blk-n">#02</span><b>Reward</b><p>Every trade earns creator rewards. K9 Rescue's share is paid automatically.</p></li>
+      <li class="blk blk-hot" data-reveal><span class="mono blk-n">#03</span><b>K9 Rescue's wallet</b><p>Paid to the address K9 Rescue publishes on k9-rescue.org: <code class="mono" data-wallet-short>DBcr…CbyE</code></p></li>
+      <li class="blk" data-reveal><span class="mono blk-n">#04</span><b>Feed · vets · spays</b><p>Turned into food, medicine and frontline spay missions. No salaries in between.</p></li>
+    </ol>
+
+    <div class="ledger" id="tracker">
+      <div class="ledger-head">
+        <h3 class="mono"><span class="live"></span> The ledger <small>read live from Solana</small></h3>
+        <p class="mono ledger-upd"><span data-updated>Connecting…</span> · <a data-solscan target="_blank" rel="noopener">verify on Solscan ↗</a></p>
+      </div>
+      <div class="ledger-stats">
+        <div class="ls ls-main"><p class="mono ls-k">Sent to K9 Rescue by the coin</p><p class="ls-v"><b data-rewards-sol>0</b><span>SOL</span></p><p class="mono ls-s" data-rewards-usd>Starts the moment the coin launches</p><div class="goal" data-goal hidden><div class="goal-bar"><i data-goal-fill></i></div><p class="mono ls-s" data-goal-text></p></div></div>
+        <div class="ls"><p class="mono ls-k">Wallet balance</p><p class="ls-v"><b data-balance>…</b><span>SOL</span></p><p class="mono ls-s" data-balance-usd>&nbsp;</p></div>
+        <div class="ls"><p class="mono ls-k">Reward payments</p><p class="ls-v"><b data-rewards-count>0</b></p><p class="mono ls-s" data-rewards-last>None yet</p></div>
+        <div class="ls"><p class="mono ls-k">Gifts since tracking began</p><p class="ls-v"><b data-donations-sol>0</b><span>SOL</span></p><p class="mono ls-s" data-donations-extra>&nbsp;</p></div>
+      </div>
+      <div class="feed mono" role="table" aria-label="Latest gifts to K9 Rescue">
+        <div class="fr fr-head" role="row"><span role="columnheader">Tx</span><span role="columnheader">When</span><span role="columnheader">Amount</span><span role="columnheader">From</span><span role="columnheader">Type</span></div>
+        <div data-feed><div class="fr-empty">Reading the chain…</div></div>
+      </div>
+      <p class="mono fine">Dust from look-alike addresses (a common spam trick) is filtered out: nothing under 0.01 SOL or 1 USDC is counted.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ V SUPPLY DROP -->
+<section class="give" id="give" data-ch="V" data-chname="Supply drop">
+  <div class="wrap give-grid">
+    <div class="give-copy">
+      <p class="mono ch-tag dark">Chapter V</p>
+      <h2>Send a <em>supply drop.</em></h2>
+      <p>You don't need to trade to help. Fill in the label and your own wallet sends SOL or USDC straight to K9 Rescue, the same address it publishes on k9-rescue.org. No middleman, no platform fee, and it shows up in the ledger within a minute or two.</p>
+      <p class="mono give-note">£8 buys a 10kg bag of feed. On the front line, volunteers cook it into porridge to feed thirty dogs at a time.</p>
+    </div>
+
+    <div class="label" data-dw>
+      <div class="lab-top">
+        <span class="stencil">K9 Rescue</span>
+        <span class="mono">Supply drop № <b data-drop-no>0001</b></span>
+      </div>
+      <div class="lab-row lab-to">
+        <span class="mono lab-k">To</span>
+        <div><b>K9 Rescue</b><span class="mono"><code data-wallet-short>DBcr…CbyE</code> <i class="ok">✓ matches k9-rescue.org</i></span></div>
+      </div>
+      <div class="lab-row">
+        <span class="mono lab-k">Pay in</span>
+        <div class="lab-tabs" role="tablist" aria-label="Currency">
+          <button type="button" role="tab" aria-selected="true" data-token="SOL">SOL</button>
+          <button type="button" role="tab" aria-selected="false" data-token="USDC">USDC</button>
+        </div>
+      </div>
+      <div class="lab-row lab-amt">
+        <span class="mono lab-k">Amount</span>
+        <div>
+          <div class="lab-presets" data-presets></div>
+          <label class="lab-custom"><span class="sr">Amount</span><input type="text" inputmode="decimal" autocomplete="off" placeholder="Other" data-amount-input><span class="mono" data-unit>SOL</span></label>
+        </div>
+      </div>
+      <div class="lab-row lab-contents">
+        <span class="mono lab-k">Contents</span>
+        <p class="mono" data-impact>&nbsp;</p>
+      </div>
+      <div class="lab-foot">
+        <div class="lab-qr">
+          <div class="qr" data-qr role="img" aria-label="Solana Pay QR code for this donation"></div>
+          <p class="mono">Scan with any<br>Solana wallet</p>
+        </div>
+        <div class="lab-act">
+          <button type="button" class="send" data-dw-go>Send the drop</button>
+          <div class="lab-links mono">
+            <a data-solpay href="#">Open in wallet app</a>
+            <button type="button" data-copy-wallet><span data-copy-label>Copy address</span></button>
+          </div>
+          <p class="mono lab-fine">Crypto gifts can't be reversed. Check the address matches <a href="https://k9-rescue.org/donate-bitcoin/" target="_blank" rel="noopener">k9-rescue.org</a>.</p>
+        </div>
+      </div>
+
+      <!-- overlays swapped in by donate.js -->
+      <div class="lab-panel" data-panel="wallets" hidden>
+        <p class="lab-panel-h">Choose your wallet</p>
+        <div class="wallet-list" data-wallet-list></div>
+        <div class="nowallet" data-nowallet hidden>
+          <p>No Solana wallet in this browser. Scan the code on the label with your phone, or open this page inside your wallet app:</p>
+          <div class="nowallet-btns"><a class="mono" data-open-phantom href="#">Open in Phantom</a><a class="mono" data-open-solflare href="#">Open in Solflare</a></div>
+        </div>
+        <button type="button" class="back mono" data-dw-back>← Back to the label</button>
+      </div>
+      <div class="lab-panel lab-status" data-panel="status" hidden>
+        <div class="spin" data-spin></div>
+        <p class="st-h" data-st-h>Waiting for your wallet…</p>
+        <p class="st-p" data-st-p>Approve the drop in your wallet.</p>
+        <div class="st-act" data-st-actions></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ STILL WAITING -->
+<section class="waiting" data-ch="V" data-chname="Still waiting">
+  <div class="wrap">
+    <p class="mono ch-tag">Still waiting</p>
+    <h2>Some of them made it <em>all the way to Wales.</em></h2>
+    <p class="waiting-note">The dogs waiting for a home in Wales are listed by K9 Rescue itself. If one of them belongs with you, adopt or foster directly through the charity.</p>
+    <a class="waiting-link mono" href="https://k9-rescue.org/adopt-us/" target="_blank" rel="noopener">Meet the dogs at k9-rescue.org <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ FIELD NOTES (FAQ) -->
+<section class="notes" id="faq" data-ch="V" data-chname="Field notes">
+  <div class="wrap notes-grid">
+    <h2>Field <em>notes.</em></h2>
+    <div class="notes-list">
+      <details><summary>Is this run by K9 Rescue?</summary><p>No. This is an independent project created and operated by Origin Labs, which is responsible for it, including its operation and marketing. K9 Rescue has not issued, approved or endorsed the coin and takes no part in running or promoting it. It is named only as a charitable beneficiary: its share of creator rewards is paid to the Solana wallet K9 Rescue publishes on k9-rescue.org for memecoin donations.</p></details>
+      <details><summary>Where exactly does the money go?</summary><p>K9 Rescue's share of creator rewards goes straight to the Solana wallet K9 Rescue lists on its crypto donations page for memecoin projects. It never passes through anyone else, and every payment is public on the blockchain.</p></details>
+      <details><summary>What does it pay for?</summary><p>Food for strays in frontline Ukraine and North Macedonia, large-scale spay missions, vet aid for grassroots shelters and the rehab sanctuary in West Wales. K9 Rescue pays no salaries.</p></details>
+      <details><summary>How can I check it myself?</summary><p>Read the ledger above, or open K9 Rescue's wallet on Solscan and see every transaction yourself.</p></details>
+      <details><summary>Do I have to buy the coin to help?</summary><p>No. Send a supply drop in SOL or USDC, or give by card on k9-rescue.org. The coin simply lets the crypto community keep giving with every trade.</p></details>
+      <details><summary>Can I get a receipt?</summary><p>Wallet gifts are anonymous by design, and every one shows up in the ledger above. If you need a receipt, <a href="https://k9-rescue.org/donate-bitcoin/" target="_blank" rel="noopener">K9 Rescue's crypto donations page</a> explains the options.</p></details>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <p class="foot-big" aria-hidden="true"><span data-x="-0.22">Saving dogs</span><span class="foot-tilde" data-x="0.16">~ inspiring change</span></p>
+  <div class="wrap foot-grid">
+    <img class="foot-logo" src="assets/brand/k9-rescue-community-logo-white.png" alt="K9 Rescue Community" width="626" height="643">
+    <div class="foot-col mono">
+      <a href="#give">Send a supply drop</a>
+      <a href="#tracker">The ledger</a>
+      <a href="#road">The dispatches</a>
+      <a href="#faq">Field notes</a>
+    </div>
+    <div class="foot-col mono">
+      <a href="https://k9-rescue.org" target="_blank" rel="noopener">k9-rescue.org</a>
+      <a href="https://k9-rescue.org/our-work/" target="_blank" rel="noopener">K9 Rescue's work</a>
+      <a href="https://k9-rescue.org/adopt-us/" target="_blank" rel="noopener">Adopt a dog</a>
+      <a href="https://k9-rescue.org/donate/" target="_blank" rel="noopener">Donate by card</a>
+    </div>
+    <div class="socials">
+      <a href="https://x.com/k9_rescue" target="_blank" rel="noopener" aria-label="K9 Rescue on X"><svg><use href="#x"/></svg></a>
+      <a href="https://t.me/K9Resc" target="_blank" rel="noopener" aria-label="K9 Rescue on Telegram"><svg><use href="#tg"/></svg></a>
+      <a href="https://discord.gg/RSY7NeVFJk" target="_blank" rel="noopener" aria-label="K9 Rescue on Discord"><svg><use href="#dc"/></svg></a>
+    </div>
+  </div>
+  <div class="wrap foot-legal mono">
+    <p>An independent project created and operated by <a href="https://originlabs.art" target="_blank" rel="noopener">Origin Labs</a>. K9 Rescue is named only as a charitable beneficiary and has not issued, approved or endorsed the coin.</p>
+    <p>Crypto values move in both directions. Nothing here is financial advice.</p>
+    <p>Photography used with permission. Individual image credits apply where appropriate.</p>
+    <p>UK notice: this coin is not promoted to people in the United Kingdom, and nothing on this site is an invitation or inducement to buy or trade cryptoassets.</p>
+  </div>
+</footer>
+
+<div class="toast mono" data-toast role="status" aria-live="polite" hidden></div>
+
+<script src="assets/vendor/qrcode-1.0.0.min.js"></script>
+<script src="assets/snow.js" defer></script>
+<script src="assets/app.js" defer></script>
+<script src="assets/donate.js" defer></script>
+</body>
+</html>
